@@ -1,5 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h1>Hello World!</h1>
+  <main class="flex flex-col items-center justify-center min-h-screen p-4">
+    <RouterView />
+  </main>
 </template>
